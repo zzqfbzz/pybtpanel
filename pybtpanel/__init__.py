@@ -3,7 +3,7 @@
 import time
 import hashlib
 import json
-import requestsgit
+import requests
 
 requests.packages.urllib3.disable_warnings()
 
