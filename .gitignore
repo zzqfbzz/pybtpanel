@@ -1,2 +1,5 @@
 .idea/*
 .venv/*
+build/*
+dist/*
+pybtpanel.egg-info/*
