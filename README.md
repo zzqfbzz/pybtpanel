@@ -20,6 +20,21 @@
 pip install pybtpanel
 ```
 
+
+## 使用示例【dome】
+```python3
+import pybtpanel
+
+BT_URL = "https://0.0.0.0:0000"
+BT_KEY = "xxxxxxxxxxxxxxxxxxxx"
+bt=pybtpanel.bt_api(BT_URL,BT_KEY)
+
+bt.get_logs()
+```
+
+
+
+
 ## 已实现功能
 -[x] 获取日志列表  
 -[x] 获取系统基础统计  
@@ -59,6 +74,13 @@ pip install pybtpanel
 -[x] 关闭流量限制（仅支持nginx）  
 -[x] 取默认文档信息  
 -[x] 设置默认文档  
+
+
+## 记录一下Star
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zzqfbzz/pybtpanel&type=Date)](https://star-history.com/#zzqfbzz/pybtpanel&Date)
+
+
 
 ## 更新日志
 
